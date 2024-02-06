@@ -12,6 +12,7 @@
     background: #1363DF;
     padding: 10px 10vw;
     z-index: 10;
+    position: fixed;
 }
 
 .logoContainer{
@@ -61,7 +62,6 @@
         background: #1363DF;
         padding: 10px 10vw;
         position: fixed;
-        box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
         z-index: 10;
     }
     .navList{

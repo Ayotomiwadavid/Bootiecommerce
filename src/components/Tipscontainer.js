@@ -1,5 +1,5 @@
 import React from 'react'
-import Smalltips from './Smalltips'
+import Smalltips from './pages/Smalltips'
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import CardGiftcardIcon from "@mui/icons-material/CardGiftcard";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
