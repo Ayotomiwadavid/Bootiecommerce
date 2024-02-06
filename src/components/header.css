@@ -13,6 +13,9 @@
     padding: 10px 10vw;
     z-index: 10;
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logoContainer{
@@ -22,10 +25,11 @@
 }
 
 .logo{
-    font-size: 40px;
+    font-size: 50px;
     color: #fff;
     font-family: sans-serif;
     text-align: center;
+    padding: 15px;
 }
 
 .navList{
@@ -101,6 +105,9 @@
         background: #1363DF;
         padding: 10px 10vw;
         position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
         z-index: 10;
     }
     .navList{
@@ -158,11 +165,13 @@
         padding: 12px 0 0px 0;
         list-style: none;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        opacity: 0;
     }
     
     .categorybutton:hover > .subNavLinkCont{
-        height: 450px;
+        height: 400px;
         background: #fff;
+        opacity: 1;
     }
     
     .subNavLinkCont .navlink{
@@ -170,7 +179,7 @@
         color: #1363DF;
         width: 100%;
         transition: all .3s ease-in-out;
-        font-size: 55px;
+        font-size: 35px;
         font-family: sans-serif;
         margin: 10px 0;
     }
